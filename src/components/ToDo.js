@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container } from 'react-bootstrap'
 import AddTask from './AddTask'
 import ListTask from './ListTask'
@@ -10,6 +10,10 @@ const ToDo = () => {
   const [tasks, setTasks] = useState([
     
   ])
+
+  useEffect( () => {
+    document.title = `you have ${tasks.length} pending task(s)`
+  })
 
   const addTask = (title) => {
     const newTask = [...tasks, { title }]
