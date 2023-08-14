@@ -1,0 +1,37 @@
+.main-container{
+    background-color: black;
+    color:aliceblue;
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+        
+}
+
+.input{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .5em;
+    margin: 1em;
+    width: 80%;
+
+}
+
+.list-task{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    color: aliceblue;
+    background-color: black;
+    border: 1px dashed gray;
+    border-radius: 5px;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.btn-delete{
+    float: right;
+
+}
